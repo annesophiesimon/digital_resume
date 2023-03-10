@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Anne-Sophie Simon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+        <script type="module"> 
+            import { script } from './script.js'; 
+            script(); 
+          </script> 
+    </head>
+
+    <body id="app" class="main text-text-primary bg-background-primary theme-light">
+        <main>
+            <section>
+                <div>
+                    <header>
+                        <h1 id="user-name">Anne-Sophie</h1>
+                        <label class="switch"><input id="toggleTheme" type="checkbox" />  
+                            <div></div>
+                        </label>
+                    </header>
+                    <p id="bio">Software Engineer passionate about building accessible and user-friendly applications to improve customer satisfaction and drive business growth.</p>
+                </div>  
+            </section>
+
+            <section>
+                <div id="socials-list">
+                    <a href="https://www.linkedin.com/in/ansimon1/" target="_blank"><i class="fa-brands fa-linkedin-in"></i>Linkedin</a>
+                    <a href="https://github.com/annesophiesimon" target="_blank"><i class="fa-brands fa-github"></i>Github</a>
+                    <a href="./assets/resume.pdf" target="_blank"><i class="fa-solid fa-circle-down"></i>Download Resume</a>
+                </div>
+            </section>
+
+            <section>
+                    <div class="category">
+                        <h2>SKILLS</h2>
+                    </div>
+                    <div>
+                        <div class="btn-skills">
+                            <button class="btn" id="btn-all">All</button>
+                            <button class="btn" id="btn-language">Languages</button>
+                            <button class="btn" id="btn-framework">Frameworks</button>
+                            <button class="btn" id="btn-tools">Tools</button>
+                            <button class="btn" id="btn-other">Other</button>
+                        </div>
+                        <ul id="skills">
+
+                        </ul>
+                    </div>
+            </section>
+
+            <section>
+                <div id="experience">
+                    <div class="category">
+                        <h2>EXPERIENCE</h2>
+                    </div>
+                    <div class="container-experience">
+                        <div class="title-box">
+                            <h3>Software Engineer |</h3>
+                            <p>Change.org</p>
+                        </div>
+                        <p>November 2019 - Present</p>
+                        <ul>
+                            <li>
+                                Built and maintained smooth end-to-end membership flows by collaborating with cross-functional teams, including product managers, designers, and QA resulting in a 90% increase in user retention for membership verticals and an increase of $3.5M LTV/year for program support expansion across all countries.
+                            </li>
+                            <li>
+                                Gathered membership project requirements, broke down features into stories, and estimated timelines resulting in an 80% on-time completion rate and a 20% timeline adjustment due to changes in leadership goals.                            
+                            </li>
+                            <li>
+                                Led a team of 5 to redesign and implement accessibility improvements across all membership projects, resulting in increased usability and compliance with accessibility standards, and addressing issues such as the inability to proceed to payments for users using screen-reader.
+                            </li>
+                            <li>
+                                Documented and implemented a process for improving pair programming leading to a 60% reduction in time spent in sessions. 
+                            </li>
+                            <li>
+                                Migrated front-end pages from RendrJS to ReactJS resulting in a 120% improvement in software delivery time and facilitating ongoing development.
+                            </li>    
+                        </ul>
+                    </div>
+                    <div class="container-experience">
+                        <div class="title-box">
+                            <h3>Junior developer |</h3>
+                            <p>Datapole</p>
+                        </div>
+                        <p>June 2018 - October 2019</p>
+                        <ul>
+                            <li>
+                                Developed customized products for 100% of clients, leading the entire lifecycle from design to deployment using Java EE, SQL, and JavaScript.</li>
+                            <li>
+                                Conducted database administration tasks, such as performing backups, optimizing queries, and maintaining indexes to ensure high performance.</li>
+                            <li>
+                                Collaborated with data scientists to diagnose and resolve software issues, leading to a 25% reduction in client complaints.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div id="project">
+                    <div class="category">
+                        <h2>PROJECT</h2>
+                    </div>
+                    <div class="container-project">
+                        <div class="title-box">
+                            <h3>Gym Member Guide |</h3>
+                            <p>June 2018</p>
+                        </div>
+                        <ul>
+                            <li>
+                                Implemented a gym guide platform using NodeJs, React, Express, and SQL, with features including user profile creation and a comprehensive exercise search function by muscle, machine, and body part.
+                            </li>
+                            <li>
+                                Designed and developed a back-office interface to enable efficient management of gym content, allowing for seamless updates, creation, and deletion of machine content.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container-project">
+                        <div class="title-box">
+                            <h3>RedditLite |</h3>
+                            <p>February 2023</p>
+                        </div>
+                        <ul>
+                            <li>
+                                Developed a RedditLite project that uses the Reddit JSON API to retrieve data from the popular platform.</li>
+                            <li>
+                                Built out the front-end design of the project using React, Redux, Tailwind and Jest.</li>                      
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div id="education">
+                    <div class="category">
+                        <h2>EDUCATION</h2>
+                    </div>
+                    <ul>
+                        <li>
+                            Simplon - Diploma in software development • 2018
+                        </li>
+                        <li>
+                            Doranco - Bachelor of web project management • 2017                        
+                        </li>
+                        <li>
+                            Cergy Paris University - DUT of Communication services and network • 2013                        
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
