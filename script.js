@@ -1,4 +1,4 @@
-export function displaySkills () { 
+export function script () { 
     const skillsData =   [
         {
             "name": "Javascript",
@@ -124,5 +124,19 @@ export function displaySkills () {
         displaySkills(val);
     });
 
-    displaySkills(skillsData);    
+    displaySkills(skillsData);   
+    
+const themeClasses = ["theme-light", "theme-dark"]
+
+document.getElementById("toggleTheme").addEventListener("change", function(e) {
+    e.preventDefault();
+    const app = document.getElementById("app");
+    const isDarkMode = app.classList.contains("theme-dark");
+    app.classList.remove(...themeClasses);
+    if (isDarkMode) {
+      app.classList.add("theme-light");
+    } else {
+      app.classList.add("theme-dark");
+    }
+  })
 }; 

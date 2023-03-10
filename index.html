@@ -10,17 +10,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
         <script type="module"> 
-            import { displaySkills } from './script.js'; 
-            displaySkills(); 
+            import { script } from './script.js'; 
+            script(); 
           </script> 
     </head>
 
-    <body>
+    <body id="app" class="main text-text-primary bg-background-primary theme-light">
         <main>
-
             <section>
                 <div>
-                    <h1 id="user-name">Anne-Sophie</h1>
+                    <header>
+                        <h1 id="user-name">Anne-Sophie</h1>
+                        <label class="switch"><input id="toggleTheme" type="checkbox" />  
+                            <div></div>
+                        </label>
+                    </header>
                     <p id="bio">Software Engineer passionate about building accessible and user-friendly applications to improve customer satisfaction and drive business growth.</p>
                 </div>  
             </section>
