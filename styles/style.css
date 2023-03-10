@@ -31,7 +31,7 @@ html {
   }
 
   i:hover,a:hover{
-    color: #408697;
+    color: #669999;
   }
   
   img {
@@ -43,11 +43,15 @@ body {
     max-width: 700px;
     margin: 0 auto;
 }
+
+main{
+  margin: 0 20px;
+} 
 section{
     margin: 16px 0;
 }
 h1 {
-    color: #408697;
+    color: #669999;
     font-size: 30px;
     font-weight: 900;
     padding: 15px 0;
@@ -57,7 +61,7 @@ h2{
     font-size: 1.5em;
     padding: 10px 0;
     letter-spacing: 6px;
-    color: #408697;
+    color: #669999;
 }
 
 .category {
@@ -72,12 +76,12 @@ h2{
     bottom: 0;
     height: 5px;
     width: 10%;
-    border-bottom: 3px solid #408697;
+    border-bottom: 3px solid #669999;
   }
 
 h3{
     font-weight: 400;
-    color: #408697;
+    color: #669999;
 }
 ul {
     padding: 5px;
@@ -101,6 +105,7 @@ gap: 5px;
 .btn-skills{
   margin-top: 15px;
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
@@ -128,8 +133,8 @@ gap: 5px;
 #skills>li {
     padding: 5px;
     margin: 0;
-    border: 1px solid #408697;
-    background-color: #408697;
+    border: 1px solid #669999;
+    background-color: #669999;
     color: white;
     border-radius: 5px;
 }
@@ -147,3 +152,16 @@ gap: 5px;
     margin-right: 10px;
 }
  
+@media (max-width: 600px) {
+#socials-list{
+  flex-direction: column;
+  gap: 5px;
+}
+.btn-skills {
+  gap: 5px;
+}
+.btn {
+  padding: 5px 10px
+}
+
+}
