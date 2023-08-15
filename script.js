@@ -1,7 +1,7 @@
 export function script () { 
     const skillsData =   [
         {
-            "name": "Javascript",
+            "name": "Javascript(ES6)",
             "type": "language"
         },
         {
@@ -21,7 +21,15 @@ export function script () {
             "type": "language"
         },
         {
-            "name": "SQL",
+            "name": "MySQL",
+            "type": "language"
+        },
+        {
+            "name": "PostgreSQL",
+            "type": "language"
+        },
+        {
+            "name": "MongoDB",
             "type": "language"
         },
         {
@@ -29,7 +37,7 @@ export function script () {
             "type": "framework"
         },
         {
-            "name": "Node",
+            "name": "ExpressJS",
             "type": "framework"
         },
         {
@@ -41,7 +49,7 @@ export function script () {
             "type": "framework"
         },
         {
-            "name": "Rendr",
+            "name": "BackboneJS",
             "type": "framework"
         },
         {
