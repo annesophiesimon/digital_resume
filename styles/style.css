@@ -227,6 +227,12 @@ gap: 5px;
 .title-box>h3 {
     margin-right: 10px;
 }
+
+h3>a {
+  color: var(--text-secondary);
+  font-size: 1.17em;
+  font-weight: 400;
+}
  
 @media (max-width: 600px) {
 #socials-list{
